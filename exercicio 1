@@ -1,0 +1,68 @@
+
+//exercicio1 
+Console.WriteLine("Digite o primeiro numero para soma ");
+String a = Console.ReadLine();
+int num1 = int.Parse(a);
+Console.WriteLine("Digite o segundo numero");
+String b = Console.ReadLine();
+int num2 = int.Parse(b);
+int Resultado = num1 + num2;
+Console.WriteLine("O total é:" + num1 + "+" + num2 + " = " + Resultado);
+
+
+//exercicio2
+Console.WriteLine("Digite um numero para dobrar");
+String c = Console.ReadLine();
+int num3 = int.Parse(c);
+int dobra = num3 * 2;
+Console.WriteLine("Seu numero dobrado é " + num3 + " + " + num3 + " = " + dobra);
+
+//exercicio3
+Console.WriteLine("Digite um numero para dividir");
+String d = Console.ReadLine();
+int num4 = int.Parse(c);
+int divisao = num3 / 2;
+Console.WriteLine("A metade do seu numero é " + num3 + " - " + num3 + " = " + divisao);
+
+
+//exercicio4
+Console.WriteLine("Digite para achar o seu quadrado");
+String e = Console.ReadLine();
+double quadrado = double.Parse(c);
+quadrado = Math.Pow(quadrado, 2);
+Console.WriteLine("O quadrado do seu numero e  " + quadrado);
+
+//exercicio5
+Console.WriteLine("Digite o primeiro numero para dividr");
+String n = Console.ReadLine();
+double num7 = double.Parse(n);
+Console.WriteLine("Digite o segundo numero");
+String m = Console.ReadLine();
+double num6 = double.Parse(m);
+double Result = num7 / num6;
+Console.WriteLine("O total é:" + num6 + "/" + num7 + " = " + Result);
+
+//exercicio6
+Console.WriteLine("Digite para achar o seu absoluto");
+String f = Console.ReadLine();
+double abso = double.Parse(f);
+abso = Math.Abs(abso);
+Console.WriteLine("O absoluto do seu numero e  " + abso);
+
+//exercicio7
+Console.WriteLine("Digite o primeiro numero para multiplicar");
+String i = Console.ReadLine();
+double num8 = double.Parse(i);
+Console.WriteLine("Digite o segundo numero");
+String h = Console.ReadLine();
+double num9 = double.Parse(h);
+double Resul = num8 * num9;
+Console.WriteLine("O total é:" + num8 + "x" + num9 + " = " + Resul);
+
+
+//exercicio8    
+Console.WriteLine("Digite o primeiro numero para achar o resto da divisão");
+String HH = Console.ReadLine();
+double n1 = double.Parse(HH);
+double Resto = n1 % 2;
+Console.WriteLine("O total é:" + Resto);
